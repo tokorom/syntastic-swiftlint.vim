@@ -17,7 +17,7 @@ brew install swiftlint
 ### syntastic and this plugin
 
 ```vim
-" exsample: with NeoBundle
+" example: with NeoBundle
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'tokorom/syntastic-swiftlint.vim'
 
