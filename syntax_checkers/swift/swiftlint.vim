@@ -43,6 +43,8 @@ function! SyntaxCheckers_swift_swiftlint_GetLocList() dict
     let errorformat =
                 \ '%E%f:%l:%c: error: %m,' .
                 \ '%W%f:%l:%c: warning: %m,' .
+                \ '%E%f:%l: error: %m,' .
+                \ '%W%f:%l: warning: %m,' .
                 \ '%Z%\s%#^~%#,' .
                 \ '%-G%.%#'
 
